@@ -205,3 +205,11 @@ func (l *Longsocket) Read(f dealmsg) {
 		}
 	}
 }
+
+func (l *Longsocket) GetWriteChan() chan []byte {
+	return l.writeCh
+}
+
+func (l *Longsocket) GetReadChan() chan []byte {
+	return l.readCh
+}
