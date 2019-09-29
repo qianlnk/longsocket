@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"qianno.xie/superservice/longsocket"
 	"time"
+
+	"github.com/qianlnk/longsocket"
 )
 
 var mysocket *longsocket.Longsocket

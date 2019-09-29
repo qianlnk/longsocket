@@ -6,9 +6,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/qianlnk/longsocket"
 	"golang.org/x/net/websocket"
-
-	"qianno.xie/superservice/longsocket"
 )
 
 func testHander(ws *websocket.Conn) {
